@@ -48,7 +48,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 mClient.start();
                 break;
             case R.id.clear_Button:
-                if (mStartLoad != null){
+                if (mStartLoad != null) {
                 mClient.stop();
                 mStartLoad.setText("");
                 }
