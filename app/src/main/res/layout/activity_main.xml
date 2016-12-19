@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.pingl.demo.iamhere.MainActivity">
+    tools:context="com.pingl.demo.iamhere.MainActivity"
+    android:weightSum="1">
 
     <LinearLayout
 
@@ -19,6 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="请求定位"/>
+
         <Button
             android:id="@+id/clear_Button"
             android:layout_width="wrap_content"
@@ -26,6 +28,7 @@
             android:text="清除数据"/>
 
     </LinearLayout>
+
     <TextView
         android:id="@+id/mText"
         android:layout_width="match_parent"
